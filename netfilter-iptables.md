@@ -30,6 +30,12 @@ firewall原理
    * 实际使用时通过表作操作入口，对规则进行定义。
    * 各种表的优先级
  * 数据经过firewall的流程
- 
- 
+* 规则的概念
+ * 匹配条件与处理动作构成规则
+ * 匹配条件
+  * 基本匹配条件:source IP ,destination IP
+  * 扩展匹配条件:source port ,destination port
+ * 处理动作
+  * 基本动作：accept drop reject
+  * 扩展动作：snat ,dnat等
 
