@@ -22,5 +22,14 @@ firewall原理
   * forward
   * postrouting
  * table concept
+   * filter
+   * nat
+   * mangle
+   * raw
+ * 表链关系
+   * 实际使用时通过表作操作入口，对规则进行定义。
+   * 各种表的优先级
+ * 数据经过firewall的流程
+ 
  
 
